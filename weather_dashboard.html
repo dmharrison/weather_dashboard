@@ -9,8 +9,18 @@
 
 <body>
     <header> Weather Dashboard</header>
+    <!-- Form for weather inputs -->
+    <form id="weather-form">
+        <label for="city">Search for a City:</label>
+        <input type="text" id="city" name="city" required>
+        <button type="submit">Search</button>
+    </form>
+
     <div id="weather-info">
         <!-- Weather data will be displayed here -->
+    </div>
+    <div>
+        <!-- five day forcast will be displayed here -->
     </div>
     <script src="./assets/logic.js"></script>
 </body>
