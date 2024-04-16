@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color: lightgray;
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
     flex: 1; 
     margin-top: 20px;
     padding: 10px; 
-    border: 1px solid #ccc; 
+    border: 1px solid black; 
     display: flex; 
     flex-direction: column; 
 }
@@ -36,5 +36,5 @@ body {
     min-width: 200px;
     margin: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
 }
