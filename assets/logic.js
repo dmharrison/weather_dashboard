@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const limit = 1;
     const apiKey = "a34bc89233dbec616ec7e18bb9ab5a30";
 
-    const geoApiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city},${state},${country}&limit=${limit}&appid=${apiKey}`;
+    const geoApiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city},${state},${country}&limit=${limit}&appid=${apiKey}`;
 
     fetch(geoApiUrl)
       .then((response) => {
